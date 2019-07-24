@@ -1,0 +1,69 @@
+#activite{
+  article{
+    text-align: center;
+    width: 30%;
+    transition: $ease5;
+
+    &:hover{
+      img{
+        border-radius: 0px;
+        transition: $ease5;
+      }
+
+      button{
+        opacity: 1;
+        transition: $ease5;
+      }
+    }
+
+    img{
+      background: $rgba;
+      border-radius: 200px;
+      transition: $ease5;
+    }
+
+    button{
+      opacity: 0;
+      transition: $ease5;
+      margin: 20px auto;
+   }
+
+    h3{
+      margin: 20px 0;
+    }
+
+    p{
+      color: $gris;
+    }
+  }
+}
+
+
+@media (max-width: 1000px){
+
+  #activite{
+    article{
+      
+      button{
+        opacity: 1;
+        transition: $ease5;
+        margin: 20px auto;
+     }
+    }
+  }
+}
+
+
+@media (max-width: 800px){
+
+  #activite{
+    article{
+      width: 70%;
+      margin-bottom: 40px;
+
+      &:last-child{
+        margin-bottom: 0px;
+      }
+    }
+  }
+}

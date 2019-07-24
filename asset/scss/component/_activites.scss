@@ -1,0 +1,21 @@
+#activite{
+  margin: 80px auto;
+
+  .activites{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 800px){
+
+  #activite{
+
+    .activites{
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+}

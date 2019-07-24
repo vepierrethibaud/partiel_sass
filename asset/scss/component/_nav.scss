@@ -1,0 +1,19 @@
+nav{
+  width: 60px;
+  height: 100vh;
+  box-shadow: $ombre;
+  position: fixed;
+  z-index: 100;
+  background: white;
+
+    img {
+      margin: 15px auto;
+      display: flex;
+    }
+
+  div{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
